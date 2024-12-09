@@ -20,7 +20,7 @@
         font-weight: 700;
         font-style:normal;
         text-decoration: none;
-        text-transform: capitalize;
+        text-transform: uppercase;
         letter-spacing: normal;
         line-height: 1.3;
         color: var(--dl-color-scheme-darkblue);
@@ -30,7 +30,7 @@
     </style>
     <link
       rel="shortcut icon"
-      href="public/ft_favicon.png"
+      href="public/playground_assets/ft_favicon.png"
       type="icon/png"
       sizes="32x32"
     />
@@ -49,37 +49,94 @@
       background-color: #fff
       }
     </style>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <link rel="stylesheet" href="./style.css" />
     <div>
       <link href="./contact.css" rel="stylesheet" />
 
       <div class="contact-container">
-        <header
-          data-role="Header"
-          class="navigation-header navigation-root-class-name1"
-        >
-          <nav class="navigation-nav">
-            <a href="index.html" class="navigation-navlink Navigation-Link">
-              <span>HOME</span>
-            </a>
-            <a
-              href="get-a-copy.html"
-              class="navigation-navlink1 Navigation-Link"
-            >
-              <span>GET A COPY</span>
-            </a>
-            <a href="contact.html" class="navigation-navlink2 Navigation-Link">
-              <span>CONTACT</span>
-            </a>
-            <a
-              href="advertise.html"
-              class="navigation-navlink3 Navigation-Link"
-            >
-              <span>ADVERTISE</span>
-            </a>
-          </nav>
+        <header data-role="Header" class="navigation-header">
+          <div class="navigation-max-width">
+            <div class="navigation-nav">
+              <nav
+                class="navigation-links-nav navigation-links-root-class-name17"
+              >
+                <a
+                  href="index.html"
+                  class="navigation-links-navlink Navigation-Link"
+                >
+                  <span>HOME</span>
+                </a>
+                <span class="navigation-links-text Navigation-Link">
+                  <span>ISSUES</span>
+                </span>
+                <a
+                  href="get-a-copy.html"
+                  class="navigation-links-navlink1 Navigation-Link"
+                >
+                  <span>GET A COPY</span>
+                </a>
+                <a
+                  href="contact.html"
+                  class="navigation-links-navlink2 Navigation-Link"
+                >
+                  <span>CONTACT</span>
+                </a>
+              </nav>
+            </div>
+            <div data-role="BurgerMenu" class="navigation-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="navigation-icon">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div data-role="MobileMenu" class="mobile-menu">
+              <div class="navigation-nav1">
+                <div class="navigation-container">
+                  <div
+                    data-role="CloseMobileMenu"
+                    class="navigation-close-mobile-menu"
+                  >
+                    <svg viewBox="0 0 1024 1024" class="navigation-icon2">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav
+                  class="navigation-links-nav navigation-links-root-class-name18"
+                >
+                  <a
+                    href="index.html"
+                    class="navigation-links-navlink Navigation-Link"
+                  >
+                    <span>HOME</span>
+                  </a>
+                  <span class="navigation-links-text Navigation-Link">
+                    <span>ISSUES</span>
+                  </span>
+                  <a
+                    href="get-a-copy.html"
+                    class="navigation-links-navlink1 Navigation-Link"
+                  >
+                    <span>GET A COPY</span>
+                  </a>
+                  <a
+                    href="contact.html"
+                    class="navigation-links-navlink2 Navigation-Link"
+                  >
+                    <span>CONTACT</span>
+                  </a>
+                </nav>
+                <button class="button-secondary button button-md">
+                  <span>Get in touch</span>
+                </button>
+              </div>
+            </div>
+          </div>
         </header>
         <main class="contact-main">
           <div class="contact-hero section-container">
@@ -89,53 +146,7 @@
           </div>
         </main>
         <div class="contact-container1">
-          <div class="contact-container2">
-            <div class="contact-container3">
-              <div class="container">
-                <form
-                  target="_blank"
-                  action="https://formsubmit.co/tidefool@gmail.com"
-                  method="POST"
-                >
-                  <div class="form-group">
-                    <div class="form-row">
-                      <div class="col">
-                        <input
-                          type="text"
-                          name="name"
-                          class="form-control"
-                          placeholder="name"
-                          required=""
-                        />
-                      </div>
-                      <div class="col">
-                        <input
-                          type="email"
-                          name="email"
-                          class="form-control"
-                          placeholder="email address"
-                          required=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <textarea
-                      placeholder="message"
-                      class="form-control"
-                      name="message"
-                      rows="10"
-                      required=""
-                    ></textarea>
-                  </div>
-                  <button type="submit"><mark>Send</mark></button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="contact-container4">
-          <span class="contact-text Content">
+          <span class="contact-text">
             <span class="contact-text01">Send</span>
             <span class="contact-text02">
               questions, comments and inspirations to:
@@ -143,7 +154,7 @@
             <br class="contact-text03" />
             <span class="contact-text04"></span>
             <br class="contact-text05" />
-            <span class="contact-text06">tidefool @ gmail.com</span>
+            <span class="contact-text06">tidefool at gmail.com</span>
             <br class="contact-text07" />
             <br class="contact-text08" />
             <span class="contact-text09">or</span>
@@ -159,15 +170,9 @@
           </span>
           <img
             alt="image"
-            src="public/foxacid-300h.png"
+            src="public/playground_assets/foxacid-300h.png"
             class="contact-image"
           />
-        </div>
-        <div class="contact-container5">
-          <span class="contact-text19">
-            <br class="contact-text20" />
-            <br class="contact-text21" />
-          </span>
         </div>
       </div>
     </div>
@@ -259,5 +264,6 @@
         runAllScripts();
       };
     </script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
 </html>
